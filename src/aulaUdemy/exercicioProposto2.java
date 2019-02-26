@@ -11,13 +11,13 @@ public class exercicioProposto2 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Insira o valor do Raio:");
+		System.out.println("Insert the value for radius:");
 		double raio = sc.nextDouble();
 		
 		double pi = 3.14159;
 		double A = pi * raio * raio;
 		
-		System.out.printf("Cálculo do valor da área%nA = %.4f", A);
+		System.out.printf("Calculate the area%nA = %.4f", A);
 		
 		sc.close();
 		

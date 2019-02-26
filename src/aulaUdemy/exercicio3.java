@@ -8,7 +8,7 @@ public class exercicio3 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Insira 3 números separados em espaços:");
+		System.out.println("Insert 3 numbers between spaces:");
 		
 		int x = sc.nextInt();
 		int y = sc.nextInt();

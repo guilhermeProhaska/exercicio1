@@ -8,9 +8,9 @@ public class exercicioProposto1 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.printf("Insira dois números inteiros:%nPrimeiro número: ");
+		System.out.printf("Insert two integers numbers:%nFirst number: ");
 		int n1 = sc.nextInt();
-		System.out.printf("%nSegundo número: ");
+		System.out.printf("%nSecond number: ");
 		int n2 = sc.nextInt();
 		
 		int soma = n1 + n2;
